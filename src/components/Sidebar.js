@@ -7,7 +7,7 @@ const Sidebar = ({ onSelectCharacter }) => {
     const [activeTab, setActiveTab] = useState('All'); // 현재 선택된 탭
     const [selectedCharacter, setSelectedCharacter] = useState(null); // 선택된 캐릭터
 
-    // 연령별 데이터
+    // 연령별 데이터.
     const characterData = {
         All: [
             { name: 'Alice', ageGroup: '20대', avatar: 'alice.png', chatHistory: [{ date: "2024-11-01", messages: [{ type: "ai", text: "Hello, I'm Alice!" }, { type: "user", text: "Hi Alice!" }] }, { date: "2024-11-02", messages: [{ type: "ai", text: "How can I assist you today?" }, { type: "user", text: "Tell me a joke." }] }] },
